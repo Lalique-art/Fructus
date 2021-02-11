@@ -12,8 +12,6 @@ struct FruitCardView: View {
     
 //    MARK: - BODY
     
-//    MARK: - PREVIEW
-    
     var body: some View {
         
         ZStack {
@@ -39,6 +37,7 @@ struct FruitCardView: View {
                     .frame(maxWidth: 480)
                 
                 // BUTTON: START
+                StartButtonView()
             }//: VSTACK
         } //: ZSTACK
         .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/,maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -47,6 +46,8 @@ struct FruitCardView: View {
         
     }
 }
+
+//    MARK: - PREVIEW
 
 struct FruitCardView_Previews: PreviewProvider {
     static var previews: some View {
