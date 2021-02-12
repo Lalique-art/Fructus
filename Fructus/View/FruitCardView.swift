@@ -43,8 +43,8 @@ struct FruitCardView: View {
                 StartButtonView()
             }//: VSTACK
         } //: ZSTACK
-        .onAppear {
-            withAnimation(.easeOut) {
+        .onAppear() {
+            withAnimation(.easeOut(duration: 0.5)) {
                 isAnimating = true
             }
         }
