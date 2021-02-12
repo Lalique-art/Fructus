@@ -18,6 +18,7 @@ struct FruitDetailView: View {
             ScrollView(.vertical, showsIndicators: true, content: {
                 VStack(alignment: .center, spacing: 20, content: {
                     // HEADER
+                    FruitHeaderView(fruit: fruit)
                     
                     VStack(alignment: .leading, spacing: 20, content: {
                         // TITLE
@@ -47,7 +48,10 @@ struct FruitDetailView: View {
                     .padding(.horizontal, 20)
                     .frame(maxWidth: 640, alignment: .center)
                 }) //: VSTACK
+                .navigationBarTitle(fruit.title, displayMode: .inline)
+                .navigationBarHidden(true)
             }) //: SCROLLVIEW
+            .edgesIgnoringSafeArea(.top)
         } //: NAVIGATION
         
     }
@@ -58,6 +62,5 @@ struct FruitDetailView: View {
 struct FruitDetailView_Previews: PreviewProvider {
     static var previews: some View {
         FruitDetailView(fruit: fruitsData[1])
-            .previewLayout(.fixed(width: 320, height: 640))
     }
 }
