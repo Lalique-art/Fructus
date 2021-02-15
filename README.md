@@ -55,7 +55,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/pelumy/fructus.git
+   git clone https://github.com/pelumy/Fructus.git
    ```
 
 
@@ -64,6 +64,6 @@ This is an example of how to list things you need to use the software and how to
 
 Your Name - [@itunu_raimi](https://twitter.com/itunu_raimi) - email@example.com
 
-Project Link: [https://github.com/pelumy/fructus](https://github.com/pelumy/fructus)
+Project Link: [https://github.com/pelumy/Fructus](https://github.com/pelumy/Fructus)
 
 
