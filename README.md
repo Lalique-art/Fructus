@@ -24,7 +24,6 @@
 This is a Fruits encyclopedia, which gives iPhone and iPad users information about different kinds of fruits. Information such as its description and the nutrients it contains.
 A demo for the app can be found [here](https://drive.google.com/file/d/1gh2thzqewynPJFKVyk7OEt8gHsPxHgLa/view?usp=sharing)
 
-https://drive.google.com/file/d//view?usp=sharing
 <p float = "left">
 <img src="https://drive.google.com/uc?export=view&id=1vEDtsFi6y0LY9JhBbwXFVU22AX6S-b3u" width = "300" >
 <img src="https://drive.google.com/uc?export=view&id=1w5YVR_4FvsOufYUhMH3p70k_YJ5Z0juA" width = "300" >
