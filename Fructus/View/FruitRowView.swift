@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FruitRowView: View {
 //    MARK: - PROPERTIES
-    var fruit: Fruit
+    var fruit: Course
 //    MARK: - BODY
     var body: some View {
         HStack {

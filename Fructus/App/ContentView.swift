@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     //MARK: PROPERTIES
-    var fruits: [Fruit] = fruitsData
+    var fruits: [Course] = fruitsData
     @State private var isShowingSettings = false
     
     //MARK: BODY

@@ -10,7 +10,7 @@ import SwiftUI
 struct FruitCardView: View {
 //    MARK: - PROPERTIES
     @State private var isAnimating = false
-    var fruit: Fruit
+    var fruit: Course
     
 //    MARK: - BODY
     

@@ -16,7 +16,7 @@ struct SourceLinkView: View {
             HStack {
                Text("Content Source")
                 Spacer()
-                Link("Wikipedia", destination: URL(string: "https://wikipedia.com")!)
+                Link("dawrat kfas", destination: URL(string: "https://www.dawrat.com/g/kfas/welcome?next=%2Fg%2Fkfas")!)
                 Image(systemName: "arrow.up.right.square")
             } //: HSTACK
             .font(.footnote)

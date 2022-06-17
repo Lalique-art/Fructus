@@ -9,24 +9,24 @@ import SwiftUI
 
 struct FruitNutrientsView: View {
     //MARK: - PROPERTIES
-    var fruit: Fruit
-    let nutrients = ["Energy", "Sugar", "Fat", "Protein", "Vitamins", "Minerals"]
+    var fruit: Course
+    let details = ["Energy", "Sugar", "Fat", "Protein", "Vitamins", "Minerals"]
     //MARK: - BODY
     var body: some View {
         GroupBox() {
             DisclosureGroup("Nutrional value per 100g") {
-                ForEach(0..<nutrients.count, id: \.self) { item in
+                ForEach(0..<details.count, id: \.self) { item in
                     Divider().padding(.vertical, 2)
                     HStack {
                         Group {
                             Image(systemName: "info.circle")
-                            Text(nutrients[item])
+                            Text(details[item])
                         }
                         .foregroundColor(fruit.gradientColors[1])
                         .font(Font.system(.body).bold())
                         
                         Spacer(minLength: 25)
-                        Text(fruit.nutrition[item])
+                        Text(fruit.details[item])
                             .multilineTextAlignment(.trailing)
                     } //: HSTACK
                 } //: LOOP

@@ -10,40 +10,20 @@ import SwiftUI
 //MARK: - FRUITS DATA
 
 let fruitsData = [
-    Fruit(
-        title: "Blueberry",
-        headline: "Blueberries are sweet, nutritious and wildly popular fruit all over the world.",
-        image: "blueberry",
+    Course(
+        title: "دورة التخطيط للمشاريع",
+        headline: "kfas",
+        image: "project",
         gradientColors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")],
         description: """
-          Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries.
-
-          Commercial blueberries—both wild (lowbush) and cultivated (highbush)—are all native to North America. The highbush varieties were introduced into Europe during the 1930s.
-
-          Blueberries are usually prostrate shrubs that can vary in size from 10 centimeters (3.9 in) to 4 meters (13 ft) in height. In commercial production of blueberries, the species with small, pea-size berries growing on low-level bushes are known as "lowbush blueberries" (synonymous with "wild"), while the species with larger berries growing on taller cultivated bushes are known as "highbush blueberries".
-
-          Canada is the leading producer of lowbush blueberries, while the United States produces some 40% of the world supply of highbush blueberries.
-
-          USES
-
-          Blueberries are sold fresh or are processed as individually quick frozen (IQF) fruit, purée, juice, or dried or infused berries. These may then be used in a variety of consumer goods, such as jellies, jams, blueberry pies, muffins, snack foods, or as an additive to breakfast cereals.
-
-          Blueberry jam is made from blueberries, sugar, water, and fruit pectin. Blueberry sauce is a sweet sauce prepared using blueberries as a primary ingredient.
-
-          Blueberry wine is made from the flesh and skin of the berry, which is fermented and then matured; usually the lowbush variety is used.
-
-          NUTRIENTS
-
-          Blueberries consist of 14% carbohydrates, 0.7% protein, 0.3% fat and 84% water (table). They contain only negligible amounts of micronutrients, with moderate levels (relative to respective Daily Values) (DV) of the essential dietary mineral manganese, vitamin C, vitamin K and dietary fiber (table).
-
-          Generally, nutrient contents of blueberries are a low percentage of the DV (table). One serving provides a relatively low caloric value of 57 kcal with a glycemic load of 6.
+          ھدف ھذه الدورة لتعريف الطلبة الناشئة بماھیة المشاريع واكسابھم مبادئ و مھارات عملیة تساعدھم في بدء مشاريعھم وتخطیطھا وتنفیذھا . تقدم الدورة أمثلة و نماذج تتناسب مع الفئة العمرية ل طلاب المدارس ، وفي نفس الوقت ترتكز على المبادئ الحديثة لإدارة المشاريع و المعتمدة على القواعد الصادرة معھد إدارة المشاريع PMI بطريقة مبسطة و سلسة وباستخدام أمثلة من حیاتھم الیومیة .
           """,
-        nutrition: ["240 kJ (57 kcal)","9.96 g","0.33 g","0.74 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Sodium, Zinc"]
+        details:  ["تستهدف الدورة طلاب المدارس من عمر 12 -18 سنة."]
       ),
-      Fruit(
-        title: "Strawberry",
+      Course(
+        title: "العلوم المرحة",
         headline: "Widely appreciated for its characteristic aroma,  red color, juicy texture, and sweetness.",
-        image: "strawberry",
+        image: "science",
         gradientColors: [Color("ColorStrawberryLight"), Color("ColorStrawberryDark")],
         description: """
           The garden strawberry (or simply strawberry; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness. It is consumed in large quantities, either fresh or in such prepared foods as jam, juice, pies, ice cream, milkshakes, and chocolates. Artificial strawberry flavorings and aromas are also widely used in products such as candy, soap, lip gloss, perfume, and many others.
@@ -64,12 +44,12 @@ let fruitsData = [
 
           Strawberries contain a modest amount of essential unsaturated fatty acids in the achene (seed) oil.
           """,
-        nutrition: ["136 kJ (33 kcal)","4.89 g","0.3 g","0.67 g","B1, B2, B3, B5, B6, B9, Choline, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+        details:  ["136 kJ (33 kcal)","4.89 g","0.3 g","0.67 g","B1, B2, B3, B5, B6, B9, Choline, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
-      Fruit(
-        title: "Lemon",
+      Course(
+        title: "CSO activities",
         headline: "There's no doubt lemons are delicious, but does adding them to water make you healthier?",
-        image: "lemon",
+        image: "CSO",
         gradientColors: [Color("ColorLemonLight"), Color("ColorLemonDark")],
         description: """
           The lemon, Citrus limon, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India. Its fruits are round in shape.
@@ -106,12 +86,12 @@ let fruitsData = [
 
           The leaves of the lemon tree are used to make a tea and for preparing cooked meats and seafoods.
           """,
-        nutrition: ["121 kJ (29 kcal)","2.5 g","0.3 g","1.1 g","B1, B2, B3, B5, B6, B9, C, Choline","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
+        details: ["121 kJ (29 kcal)","2.5 g","0.3 g","1.1 g","B1, B2, B3, B5, B6, B9, C, Choline","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
       ),
-      Fruit(
-        title: "Plum",
+      Course(
+        title: "العاب ممتعة لحل المعادلات الرياضية",
         headline: "Plums are a very nutritious fruit. An excellent source of vitamins, minerals, fiber and antioxidants.",
-        image: "plum",
+        image: "math",
         gradientColors: [Color("ColorPlumLight"), Color("ColorPlumDark")],
         description: """
           A plum is a fruit of the subgenus Prunus of the genus Prunus. The subgenus is distinguished from other subgenera (peaches, cherries, bird cherries, etc.) in the shoots having terminal bud and solitary side buds (not clustered), the flowers in groups of one to five together on short stems, and the fruit having a groove running down one side and a smooth stone (or pit).
@@ -138,12 +118,12 @@ let fruitsData = [
 
           A large number of plums, of the Damson variety, are also grown in Hungary, where they are called szilva and are used to make lekvar (a plum paste jam), palinka (traditional fruit brandy), plum dumplings, and other foods. In Romania, 80% of the plum production is used to create a similar brandy, called țuică.
           """,
-        nutrition: ["192 kJ (46 kcal)","9.92 g","0.28 g","0.7 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+        details: ["192 kJ (46 kcal)","9.92 g","0.28 g","0.7 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
-      Fruit(
-        title: "Lime",
+      Course(
+        title: "استخدام تلسكوبات الهواة",
         headline: "Sour, round, and bright green citrus fruits. Limes are high in vitamin C, antioxidants, and other nutrients.",
-        image: "lime",
+        image: "tele",
         gradientColors: [Color("ColorLimeLight"), Color("ColorLimeDark")],
         description: """
         A lime (from French lime, from Arabic līma, from Persian līmū, "lemon")[1] is a citrus fruit, which is typically round, green in color, 3–6 centimetres (1.2–2.4 in) in diameter, and contains acidic juice vesicles.
@@ -168,12 +148,12 @@ let fruitsData = [
 
         Lime extracts and lime essential oils are frequently used in perfumes, cleaning products, and aromatherapy.
         """,
-        nutrition: ["126 kJ (30 kcal)","1.7 g","0.2 g","0.7 g","B1, B2, B3, B5, B6, B9, C","Calcium, Iron, Magnasium, Phosphorus, Potassium, Sodium"]
+        details: ["126 kJ (30 kcal)","1.7 g","0.2 g","0.7 g","B1, B2, B3, B5, B6, B9, C","Calcium, Iron, Magnasium, Phosphorus, Potassium, Sodium"]
       ),
-      Fruit(
-        title: "Pomegranate",
+      Course(
+        title: "إنشاء صفحة بيئة توعوية على منصة التواصل الاجتماعي",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
-        image: "pomegranate",
+        image: "inviroment",
         gradientColors: [Color("ColorPomegranateLight"), Color("ColorPomegranateDark")],
         description: """
           The pomegranate (Punica granatum) is a fruit-bearing deciduous shrub in the family Lythraceae, subfamily Punicoideae, that grows between 5 and 10 m (16 and 33 ft) tall.
@@ -194,9 +174,9 @@ let fruitsData = [
 
           Insect pests of the pomegranate can include the pomegranate butterfly Virachola isocrates and the leaf-footed bug Leptoglossus zonatus, and fruit flies and ants are attracted to unharvested ripe fruit. Pomegranate grows easily from seed, but is commonly propagated from 25 to 50 cm (10 to 20 in) hardwood cuttings to avoid the genetic variation of seedlings. Air layering is also an option for propagation, but grafting fails.
           """,
-        nutrition: ["346 kJ (83 kcal)","13.67 g","1.17 g","1.67 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+        details: ["346 kJ (83 kcal)","13.67 g","1.17 g","1.67 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
-      Fruit(
+      Course(
         title: "Pear",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "pear",
@@ -230,9 +210,9 @@ let fruitsData = [
 
           The Bradford pear (Pyrus calleryana 'Bradford') in particular has become widespread in North America, and is used only as an ornamental tree, as well as a blight-resistant rootstock for Pyrus communis fruit orchards. The Willow-leaved pear (Pyrus salicifolia) is grown for its attractive, slender, densely silvery-hairy leaves.
           """,
-        nutrition: ["239 kJ (57 kcal)","9.75 g","0.14 g","0.36 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+        details:  ["239 kJ (57 kcal)","9.75 g","0.14 g","0.36 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
-      Fruit(
+      Course(
         title: "Gooseberry",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "gooseberry",
@@ -254,9 +234,9 @@ let fruitsData = [
 
           Gooseberries are edible and can be eaten as-is, or used as an ingredient in desserts, such as pies, fools and crumbles. Early pickings are generally sour and more appropriate for culinary use. They are also used to flavour beverages such as sodas, flavoured waters, or milk, and can be made into fruit wines and teas. Gooseberries can be preserved in the form of jams, dried fruit, or as the primary or a secondary ingredient in pickling, or stored in sugar syrup.
           """,
-        nutrition: ["184 kJ (44 kcal)","6.15","0.58 g","0.88 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+        details:  ["184 kJ (44 kcal)","6.15","0.58 g","0.88 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
-      Fruit(
+      Course(
         title: "Mango",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "mango",
@@ -286,9 +266,9 @@ let fruitsData = [
 
           Generally, ripe mangoes have an orange-yellow or reddish peel and are juicy for eating, while exported fruit are often picked while underripe with green peels. Although producing ethylene while ripening, unripened exported mangoes do not have the same juiciness or flavor as fresh fruit.
           """,
-        nutrition: ["250 kJ (60 kcal)","13.7 g","0.38 g","0.82 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+        details: ["250 kJ (60 kcal)","13.7 g","0.38 g","0.82 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
-      Fruit(
+      Course(
         title: "Watermelon",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "watermelon",
@@ -320,9 +300,9 @@ let fruitsData = [
 
           Lack of pollen is thought to contribute to "hollow heart" which causes the flesh of the watermelon to devleop a large hole, sometimes in an intricate, symmetric shape. Watermelons suffering from hollow heart are safe to consume.
           """,
-        nutrition: ["127 kJ (30 kcal)","6.2 g","0.15 g","0.61 g","A, B1, B2, B3, B5, B6, C","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+        details:  ["127 kJ (30 kcal)","6.2 g","0.15 g","0.61 g","A, B1, B2, B3, B5, B6, C","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
-      Fruit(
+      Course(
         title: "Cherry",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "cherry",
@@ -342,9 +322,9 @@ let fruitsData = [
 
           A cherry tree will take three to four years once it is planted in the orchard to produce its first crop of fruit, and seven years to attain full maturity.
           """,
-        nutrition: ["209 kJ (50 kcal)","8.5 g","0.3 g","1 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+        details:  ["209 kJ (50 kcal)","8.5 g","0.3 g","1 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       ),
-      Fruit(
+      Course(
         title: "Grapefruit",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "grapefruit",
@@ -368,9 +348,9 @@ let fruitsData = [
 
           In Costa Rica, especially in Atenas, grapefruit are often cooked to remove their sourness, rendering them as sweets; they are also stuffed with dulce de leche, resulting in a dessert called toronja rellena (stuffed grapefruit). In Haiti, grapefruit is used primarily for its juice (jus de Chadèque), but also is used to make jam (confiture de Chadèque).
           """,
-        nutrition: ["138 kJ (33 kcal)","7.31 g","0.10 g","0.8 g","B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
+        details: ["138 kJ (33 kcal)","7.31 g","0.10 g","0.8 g","B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
       ),
-      Fruit(
+      Course(
         title: "Apple",
         headline: "Apples are one of the most popular, and exceptionally healthy fruit for good reason.",
         image: "apple",
@@ -392,7 +372,7 @@ let fruitsData = [
 
           Commercially popular apple cultivars are soft but crisp. Other desirable qualities in modern commercial apple breeding are a colorful skin, absence of russeting, ease of shipping, lengthy storage ability, high yields, disease resistance, common apple shape, and developed flavor. Modern apples are generally sweeter than older cultivars, as popular tastes in apples have varied over time. Most North Americans and Europeans favor sweet, subacid apples, but tart apples have a strong minority following. Extremely sweet apples with barely any acid flavor are popular in Asia, especially the Indian Subcontinent.
           """,
-        nutrition: ["218 kJ (52 kcal)","10.39 g","0.17 g","0.26 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+        details:  ["218 kJ (52 kcal)","10.39 g","0.17 g","0.26 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
       )
 
 ]

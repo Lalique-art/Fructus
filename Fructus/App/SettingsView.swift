@@ -20,16 +20,16 @@ struct SettingsView: View {
                     //MARK: - SECTION 1
                     GroupBox(
                         label:
-                            SettingsLabelView(labelTitle: "Fructus", labelImage: "info.circle"),
+                            SettingsLabelView(labelTitle: "CSO", labelImage: "CSO"),
                         content: {
                             Divider().padding(.vertical, 4)
                             HStack(alignment: .center, spacing: 10) {
-                                Image("logo")
+                                Image("CSO")
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 80, height:  80)
                                     .cornerRadius(9)
-                                Text("Most fruits are naturally low in fat, sodium and calories. None have cholesterol. Fruits are sources of many essential nutrients, including potassium, dietary fibre, vitamins and much more")
+                                Text("رسالة البرنامج تنمية مهارات القرن الحادي و العشرين لدى الطلاب المتميزين في سن مبكرة و تشجيعهم على نشر المعارف في العلوم و التكنولوجيا و الهنسة والرياضيات STEM في المدارس و المجتمع.")
                                     .font(.footnote)
                                     .multilineTextAlignment(.leading)
                             }
@@ -39,10 +39,10 @@ struct SettingsView: View {
                     
                     GroupBox(
                         label:
-                            SettingsLabelView(labelTitle: "Customization", labelImage: "paintbrush"),
+                            SettingsLabelView(labelTitle: "العودة للصفحة الرئيسية", labelImage: "paintbrush"),
                         content: {
                             Divider().padding(.vertical, 4)
-                            Text("If you wish you can restart the application by toggling the switch in this box. That way it starts the onboarding process and you will see the welcome screen again.")
+                            Text("لأعادة التشغيل والعودة للصفحة الرئيسية")
                                 .padding(.vertical, 8)
                                 .frame(minHeight: 60)
                                 .layoutPriority(1)
@@ -68,18 +68,7 @@ struct SettingsView: View {
                     
                     
                     //MARK: - SECTION 3
-                    GroupBox(label: SettingsLabelView(labelTitle: "Application", labelImage: "apps.iphone"), content: {
-                        
-                        SettingsRowView(name: "Developer", content: "Itunu Raimi")
-                        SettingsRowView(name: "Designer", content: "Robert Petras")
-                        SettingsRowView(name: "Compatibility", content: "iOS 14")
-                        SettingsRowView(name: "Website", linkLabel: "SwiftUI Masterclass", linkDestination: "swiftuimasterclass.com")
-                        SettingsRowView(name: "Twitter", linkLabel: "@itunu_raimi", linkDestination: "twitter.com/itunu_raimi")
-                        SettingsRowView(name: "SwiftUI", content: "2.0")
-                        SettingsRowView(name: "Version", content: "1.1.0")
-                    }) //: BOX
-                    
-                } //: VSTACK
+                 
                 .navigationBarTitle("Settings", displayMode: .large)
                 .navigationBarItems(
                     trailing:
@@ -101,4 +90,5 @@ struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsView()
     }
+}
 }

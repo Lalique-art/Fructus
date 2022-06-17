@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FruitDetailView: View {
-    var fruit: Fruit
+    var fruit: Course
     
     //MARK: PROPERTIES
     
